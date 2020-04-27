@@ -3907,3 +3907,16 @@ input, select, textarea {
 			}
 
 		}
+
+		.test1 img {
+			float: left;
+			width: 90px;
+			height: 90px;
+		  }
+		  
+		  .test1 h2 {
+			position: relative;
+			top: 17px;
+			left: 20px;
+			letter-spacing: 0.35em;
+		  }
