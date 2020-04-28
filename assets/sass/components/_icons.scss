@@ -1,5 +1,5 @@
 ///
-/// Hyperspace by Pixelarity
+/// Solid State by Pixelarity
 /// pixelarity.com | hello@pixelarity.com
 /// License: pixelarity.com/license
 ///
@@ -13,17 +13,15 @@
 
 		li {
 			display: inline-block;
-			padding: 0 0.75em 0 0;
+			padding: 0 1em 0 0;
 
 			&:last-child {
 				padding-right: 0;
 			}
 
-			> a, > span {
-				border: 0;
-
-				.label {
-					display: none;
+			.icon {
+				&:before {
+					font-size: 1.25em;
 				}
 			}
 		}
