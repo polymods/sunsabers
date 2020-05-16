@@ -7,6 +7,17 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+		<script>
+			function onSubmit() {
+				var form = document.querySelector('form');
+				if (form.checkValidity()) {
+					form.submit();
+				} else {
+					grecaptcha.reset();
+					form.reportValidity();
+				}
+			}
+		</script>
 
 		<!-- Favicons -->
 			<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -77,7 +88,7 @@
 						<div class="inner">
 							<h2 class="major">Get in touch</h2>
 							<p>Please feel free to send us an email. Fill in the form below and we'll reply to your provided email address within three working days.</p>
-							<form method="post" action="https://formspree.io/mbjzrova">
+							<form id='form' method="post" action="https://formspree.io/mbjzrova">
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
@@ -96,10 +107,8 @@
 										<textarea name="message" id="message" rows="2" required></textarea>
 									</div>
 								</div>
-								<div class="g-recaptcha" data-sitekey="6LcIt-QUAAAAAHF9ZC6jKqld3a6ElQBUPE84rm59"></div>
-								<br>
 								<ul class="actions">
-									<li><input type="submit" value="Send" /></li>
+									<li><button class="g-recaptcha" data-sitekey="6LeF__cUAAAAAP0CEzzdbJzlmwVHVv4HgqqLmGhk" data-callback='onSubmit'>Send</button></li>
 								</ul>
 							</form>
 							<ul class="contact">
