@@ -12,7 +12,7 @@
           <br>
           <br>Sunsabers Support</mj-text>
         <mj-divider border-color="#bf6a6a" border-width="2px" padding-bottom="0px" padding-left="30px" padding-right="30px" padding-top="0px"></mj-divider>
-        <mj-text color="#bf6a6a" font-family="helvetica" font-size="12px" line-height="140%" align="center" padding="30px">2020 © <a href="https://www.sunsabers.com/" style="color:#ffffff">Sunsabers</a>. All rights reserved.</mj-text>
+        <mj-text color="#bf6a6a" font-family="helvetica" font-size="12px" line-height="140%" align="center" padding="30px">2020 © <a href="https://www.sunsabers.com/" style="color:#ffffff">Sunsabers</a>. All rights reserved. | Powered by Diatium Cells</mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
