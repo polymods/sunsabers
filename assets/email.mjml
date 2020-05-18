@@ -1,0 +1,19 @@
+<mjml>
+  <mj-body background-color="#b65555">
+    <mj-section padding="0px">
+      <mj-column>
+        <mj-image href="https://www.sunsabers.com/" padding="30px" src="https://github.com/polymods/sunsabers/raw/master/assets/email.jpg" width="48px"></mj-image>
+        <mj-divider border-color="#bf6a6a" border-width="2px" padding-bottom="0px" padding-left="30px" padding-right="30px" padding-top="0px"></mj-divider>
+        <mj-text color="#ffffff" font-family="helvetica" font-size="14px" line-height="140%" padding="30px">Greetings,
+          <br>
+          <br>* body *
+          <br>
+          <br>Sincerely,
+          <br>
+          <br>Sunsabers Support</mj-text>
+        <mj-divider border-color="#bf6a6a" border-width="2px" padding-bottom="0px" padding-left="30px" padding-right="30px" padding-top="0px"></mj-divider>
+        <mj-text color="#bf6a6a" font-family="helvetica" font-size="12px" line-height="140%" align="center" padding="30px">2020 © <a href="https://www.sunsabers.com/" style="color:#ffffff">Sunsabers</a>. All rights reserved.</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
