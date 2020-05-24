@@ -1,16 +1,33 @@
 <!DOCTYPE HTML>
-<!--
-	Solid State by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
--->
 <html>
 	<head>
-		<title>Untitled</title>
+		<title>Sunsabers</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+		<script>
+			function onSubmit() {
+				var form = document.querySelector('form');
+				if (form.checkValidity()) {
+					form.submit();
+				} else {
+					grecaptcha.reset();
+					form.reportValidity();
+				}
+			}
+		</script>
+
+		<!-- Favicons -->
+			<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+			<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+			<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+			<link rel="manifest" href="/site.webmanifest">
+			<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#b65555">
+			<meta name="msapplication-TileColor" content="#b65555">
+			<meta name="theme-color" content="#b65555">
+
 	</head>
 	<body class="is-preload">
 
@@ -19,65 +36,47 @@
 
 				<!-- Header -->
 					<header id="header">
-						<h1><a href="index.html">Solid State</a></h1>
-						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
+						<h1><a href="/">Sunsabers</a></h1>
 					</header>
-
-				<!-- Menu -->
-					<nav id="menu">
-						<div class="inner">
-							<h2>Menu</h2>
-							<ul class="links">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="generic.html">Generic</a></li>
-								<li><a href="elements.html">Elements</a></li>
-								<li><a href="#">Log In</a></li>
-								<li><a href="#">Sign Up</a></li>
-							</ul>
-							<a href="#" class="close">Close</a>
-						</div>
-					</nav>
 
 				<!-- Wrapper -->
 					<section id="wrapper">
 						<header>
 							<div class="inner">
-								<h2>Generic</h2>
-								<p>Phasellus non pulvinar erat. Fusce tincidunt nisl eget ipsum.</p>
+								<h2>MHS V1 CFX Chassis</h2>
+								<p>Installation Instructions</p>
 							</div>
 						</header>
 
-						<!-- Content -->
-							<div class="wrapper">
-								<div class="inner">
-
-									<h3 class="major">Lorem ipsum dolor</h3>
-									<p>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien.</p>
-
-									<p>Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. Proin nec commodo, vel scelerisque nisi scelerisque. Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec felis elementum varius.</p>
-
-									<h3 class="major">Vitae phasellus</h3>
-									<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-
-									<section class="features">
-										<article>
-											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3 class="major">Sed feugiat lorem</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-											<h3 class="major">Nisl placerat</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
-										</article>
-									</section>
-
-								</div>
+					<!-- Content -->
+						<section id="four" class="wrapper alt style1">
+							<div class="inner">
+								<h2>Preface</h2>
+								<p>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet.</p>
+								<section class="features">
+									<article>
+										<a class="image"><img src="images/items/chassis.png" alt="" /></a>
+										<h3>Step 1</h3>
+										<p>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor.</p>
+									</article>
+									<article>
+										<a class="image"><img src="images/items/chassis.png" alt="" /></a>
+										<h3>Step 2</h3>
+										<p>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor.</p>
+									</article>
+									<article>
+										<a class="image"><img src="images/items/chassis.png" alt="" /></a>
+										<h3>Step 3</h3>
+										<p>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor.</p>
+									</article>
+									<article>
+										<a class="image"><img src="images/items/chassis.png" alt="" /></a>
+										<h3>Step 4</h3>
+										<p>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor.</p>
+									</article>
+								</section>
 							</div>
+						</section>
 
 					</section>
 
@@ -85,40 +84,38 @@
 					<section id="footer">
 						<div class="inner">
 							<h2 class="major">Get in touch</h2>
-							<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-							<form method="post" action="#">
+							<p>Please feel free to send us an email. Fill in the form below and we'll reply to your provided email address within three working days.</p>
+							<form id='form' method="post" action="https://formspree.io/mbjzrova">
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
+										<input type="text" name="name" id="name" required />
 									</div>
 									<div class="field">
 										<label for="email">Email</label>
-										<input type="email" name="email" id="email" />
+										<input type="email" name="email" id="email" required />
+									</div>
+									<div class="field">
+										<label for="subject">Subject</label>
+										<input type="text" name="_subject" id="subject" required />
 									</div>
 									<div class="field">
 										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
+										<textarea name="message" id="message" rows="2" required></textarea>
 									</div>
 								</div>
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
+									<li><button class="g-recaptcha" data-sitekey="6LeF__cUAAAAAP0CEzzdbJzlmwVHVv4HgqqLmGhk" data-callback='onSubmit'>Send</button></li>
 								</ul>
 							</form>
 							<ul class="contact">
-								<li class="icon solid fa-home">
-									Untitled Inc<br />
-									1234 Somewhere Road Suite #2894<br />
-									Nashville, TN 00000-0000
-								</li>
-								<li class="icon solid fa-phone">(000) 000-0000</li>
-								<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
-								<li class="icon brands fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>
-								<li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled-tld</a></li>
-								<li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
+								<li class="icon solid fa-home">Duluth, Minnesota</li>
+								<li class="icon solid fa-envelope">support@sunsabers.com</li>
+								<li class="icon solid fa-link"><a href="https://www.etsy.com/shop/Sunsabers">Sunsabers on Etsy</a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Untitled Inc. All rights reserved.</li>
+								<li>2020 &copy; Sunsabers. All rights reserved.</li>
+								<li>Powered by Diatium Cells</li>
 							</ul>
 						</div>
 					</section>
