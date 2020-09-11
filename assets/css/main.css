@@ -3128,6 +3128,14 @@ button:disabled,
 	width: 100%;
 }
 
+.features article .image.item {
+	margin-bottom: -0.1em;
+}
+
+.features article .image.item img {
+	border-radius: 5px;
+}
+
 @media screen and (max-width: 980px) {
 	.features article {
 		margin: 1em 2em 1em 0;
